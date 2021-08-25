@@ -12,3 +12,4 @@ load_dotenv(dotenv_path)
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 client = commands.Bot(command_prefix="pp!")
+
